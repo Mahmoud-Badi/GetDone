@@ -1,0 +1,33 @@
+{
+  "name": "getdone-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahmoud-Badi/GetDone.git"
+  },
+  "keywords": ["todo", "odin-project", "webpack", "localstorage", "javascript"],
+  "author": "Mahmoud Badi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahmoud-Badi/GetDone/issues"
+  },
+  "homepage": "https://github.com/Mahmoud-Badi/GetDone#readme",
+  "description": "A small todo-list app practicing ES6 modules, classes, Webpack, and localStorage persistence — built for The Odin Project.",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
