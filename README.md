@@ -2,6 +2,8 @@
 
 **Live demo:** [mahmoud-badi.github.io/GetDone](https://mahmoud-badi.github.io/GetDone/)
 
+![GetDone Inbox view, showing four tasks across mixed priorities and due dates](docs/preview.png)
+
 A small, opinionated todo-list app built as part of [The Odin Project](https://www.theodinproject.com/). The goal of the project was to practice JavaScript modules, classes, Webpack, and `localStorage` persistence. All with strict separation of concerns between data and display.
 
 ## Features
