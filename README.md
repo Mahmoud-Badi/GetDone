@@ -1,6 +1,8 @@
 # GetDone
 
-A small, opinionated todo-list app built as part of [The Odin Project](https://www.theodinproject.com/). The goal of the project was to practice JavaScript modules, classes, Webpack, and `localStorage` persistence — all with strict separation of concerns between data and display.
+**Live demo:** [mahmoud-badi.github.io/GetDone](https://mahmoud-badi.github.io/GetDone/)
+
+A small, opinionated todo-list app built as part of [The Odin Project](https://www.theodinproject.com/). The goal of the project was to practice JavaScript modules, classes, Webpack, and `localStorage` persistence. All with strict separation of concerns between data and display.
 
 ## Features
 
@@ -49,6 +51,18 @@ npm install
 npm start          # dev server with HMR at http://localhost:8080
 npm run build      # production bundle into ./dist
 ```
+
+## Deploying to GitHub Pages
+
+The `dist/` directory is gitignored, so the production bundle is published to a separate `gh-pages` branch via the [`gh-pages`](https://www.npmjs.com/package/gh-pages) package.
+
+```bash
+npm run deploy
+```
+
+That script runs `npm run build`, then publishes `dist/` to the `gh-pages` branch on `origin` with a `.nojekyll` file (so GitHub doesn't try to Jekyll-process the output).
+
+In **Settings → Pages**, set the source to **Deploy from a branch** with branch `gh-pages` and folder `/ (root)`.
 
 ## License
 
